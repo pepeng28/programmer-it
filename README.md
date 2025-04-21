@@ -36,6 +36,13 @@ upload di github.
      ```bash
      git remote set-url origin git@github.com:1/2.git
      ```
+3. **Mengatur URL Remote untuk Repositori (Jika diperlukan)**
+   - Jika kamu sudah menambahkan remote sebelumnya menggunakan SSH dan ingin beralih ke HTTPS, kamu dapat mengubah URL remote dengan:
+
+     ```bash
+     git remote set-url origin https://github.com/USERNAME/NAMA-REPO.git
+     ```
+     
 
 4. **Menambahkan File dan Melakukan Commit**
    - Untuk menambahkan semua file yang telah diubah ke staging area, jalankan:
