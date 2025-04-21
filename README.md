@@ -19,22 +19,22 @@ upload di github.
    - **Untuk HTTPS**:
 
      ```bash
-     git remote add origin https://github.com/#1/#2.git
+     git remote add origin https://github.com/1/2.git
      ```
 
    - **Untuk SSH** (lebih disarankan jika kamu telah mengatur SSH Key):
 
      ```bash
-     git remote add origin git@github.com:<gitkamu>/<repositori>.git
+     git remote add origin git@github.com:1/2.git
      ```
 
-     Gantilah `<gitkamu>` dengan nama pengguna GitHub dan `<repositori>` dengan nama repositori yang sesuai.
+     Gantilah `1 = gitkamu` dengan nama pengguna GitHub dan `2 = repositori` dengan nama repositori yang sesuai.
 
 3. **Mengatur URL Remote untuk Repositori (Jika diperlukan)**
    - Jika kamu sudah menambahkan remote sebelumnya menggunakan HTTPS dan ingin beralih ke SSH, kamu dapat mengubah URL remote dengan:
 
      ```bash
-     git remote set-url origin git@github.com:<gitkamu>/<repositori>.git
+     git remote set-url origin git@github.com:1/2.git
      ```
 
 4. **Menambahkan File dan Melakukan Commit**
