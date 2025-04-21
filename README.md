@@ -1,6 +1,6 @@
-# Proyek Saya
+# Github
 
-Deskripsi singkat mengenai proyek ini.
+upload di github.
 
 ## Instruksi Pengaturan Git
 
