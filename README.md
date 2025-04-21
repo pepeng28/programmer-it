@@ -57,6 +57,21 @@ Deskripsi singkat mengenai proyek ini.
 
      Perintah ini akan mengirim commit kamu ke branch `main` di remote GitHub.
 
+6. **Menarik Perubahan dari Remote Repository dengan Rebase**
+   - Sebelum melakukan `push`, kamu mungkin ingin menarik (pull) perubahan dari remote branch `main` dan menggabungkannya dengan rebase, sehingga riwayat commit kamu tetap rapi (terhindar dari merge commit yang tidak perlu).
+
+     Untuk melakukan pull dengan rebase, jalankan perintah berikut:
+
+     ```bash
+     git pull origin main --rebase
+     ```
+
+     **Penjelasan**:
+     - **`git pull`**: Menarik perubahan terbaru dari remote repository.
+     - **`origin`**: Nama remote repository yang mengarah ke GitHub.
+     - **`main`**: Nama branch yang ingin kamu tarik perubahannya.
+     - **`--rebase`**: Menggabungkan perubahan dari remote dengan cara rebase, menjaga riwayat commit agar lebih bersih.
+
 ## Lisensi
 
 Proyek ini dilisensikan di bawah **MIT License** - lihat file [LICENSE](LICENSE) untuk rincian lebih lanjut.
