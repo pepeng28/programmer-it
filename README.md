@@ -4,8 +4,17 @@ Deskripsi singkat mengenai proyek ini.
 
 ## Instruksi Pengaturan Git
 
-1. **Menambahkan Remote Repository**
-   - Jika kamu belum menambahkan remote repository untuk proyek ini, gunakan perintah berikut untuk menambahkan remote yang mengarah ke GitHub menggunakan URL HTTPS atau SSH.
+1. **Inisialisasi Repositori Git**
+   - Jika kamu belum menginisialisasi repositori Git di proyek ini, jalankan perintah berikut untuk memulai repositori Git di direktori proyek kamu:
+
+     ```bash
+     git init
+     ```
+
+     Perintah ini akan membuat direktori `.git` di proyek kamu dan mengonfigurasi repositori Git lokal.
+
+2. **Menambahkan Remote Repository**
+   - Setelah repositori Git berhasil diinisialisasi, kamu dapat menambahkan remote repository untuk menghubungkan repositori lokal dengan GitHub. Gunakan salah satu perintah berikut untuk menambahkan remote dengan URL HTTPS atau SSH.
    
    - **Untuk HTTPS**:
 
@@ -21,14 +30,14 @@ Deskripsi singkat mengenai proyek ini.
 
      Gantilah `<gitkamu>` dengan nama pengguna GitHub dan `<repositori>` dengan nama repositori yang sesuai.
 
-2. **Mengatur URL Remote untuk Repositori (Jika diperlukan)**
+3. **Mengatur URL Remote untuk Repositori (Jika diperlukan)**
    - Jika kamu sudah menambahkan remote sebelumnya menggunakan HTTPS dan ingin beralih ke SSH, kamu dapat mengubah URL remote dengan:
 
      ```bash
      git remote set-url origin git@github.com:<gitkamu>/<repositori>.git
      ```
 
-3. **Menambahkan File dan Melakukan Commit**
+4. **Menambahkan File dan Melakukan Commit**
    - Untuk menambahkan semua file yang telah diubah ke staging area, jalankan:
 
      ```bash
@@ -41,14 +50,14 @@ Deskripsi singkat mengenai proyek ini.
      git commit -m "Pesan commit kamu"
      ```
 
-4. **Menetapkan Branch ke `main` (Jika perlu)**
+5. **Menetapkan Branch ke `main` (Jika perlu)**
    - Jika kamu ingin mengganti nama branch utama ke `main`, jalankan perintah ini:
 
      ```bash
      git branch -M main
      ```
 
-5. **Mengirimkan Perubahan ke GitHub (Push)**
+6. **Mengirimkan Perubahan ke GitHub (Push)**
    - Setelah commit selesai, gunakan perintah berikut untuk mengirim perubahan ke GitHub:
 
      ```bash
@@ -57,7 +66,7 @@ Deskripsi singkat mengenai proyek ini.
 
      Perintah ini akan mengirim commit kamu ke branch `main` di remote GitHub.
 
-6. **Menarik Perubahan dari Remote Repository dengan Rebase**
+7. **Menarik Perubahan dari Remote Repository dengan Rebase**
    - Sebelum melakukan `push`, kamu mungkin ingin menarik (pull) perubahan dari remote branch `main` dan menggabungkannya dengan rebase, sehingga riwayat commit kamu tetap rapi (terhindar dari merge commit yang tidak perlu).
 
      Untuk melakukan pull dengan rebase, jalankan perintah berikut:
