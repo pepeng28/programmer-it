@@ -19,7 +19,7 @@ upload di github.
    - **Untuk HTTPS**:
 
      ```bash
-     git remote add origin https://github.com/gitmu/repositori.git
+     git remote add origin https://github.com/<gitkamu>/<repositori>.git
      ```
 
    - **Untuk SSH** (lebih disarankan jika kamu telah mengatur SSH Key):
