@@ -94,6 +94,6 @@ gak ada..
 
 ## Kontak
 
-Nama: Muhammad Misbakhul Munir 
+Nama: Muhammad Misbakhul Munir.
 Email: [belom..]  
 GitHub: [https://github.com/pepeng28](https://github.com/pepeng28)
