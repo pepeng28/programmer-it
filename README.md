@@ -90,10 +90,10 @@ upload di github.
 
 ## Lisensi
 
-Proyek ini dilisensikan di bawah **MIT License** - lihat file [LICENSE](LICENSE) untuk rincian lebih lanjut.
+gak ada..
 
 ## Kontak
 
-Nama: Pepeng28  
-Email: [email kamu]  
+Nama: Muhammad Misbakhul Munir 
+Email: belom  
 GitHub: [https://github.com/pepeng28](https://github.com/pepeng28)
